@@ -27,7 +27,7 @@ function draw(){
         var damage = Math.round(0.5 * weight * speed * speed / (thickness*thickness*thickness));
         var colour;
 
-        if(damage>10){
+        if(damage>=10){
 
             bullet.shapeColor = color(255,0,0);
             colour = "red";
