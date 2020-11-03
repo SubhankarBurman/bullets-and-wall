@@ -24,7 +24,8 @@ function draw(){
 
 
         bullet.velocityX = 0;
-        var damage = Math.round(0.5 * weight * speed * speed / (thickness*thickness*thickness));
+//         var damage = Math.round(0.5 * weight * speed * speed / (thickness*thickness*thickness));
+        var damage = 10;
         var colour;
 
         if(damage>=10){
